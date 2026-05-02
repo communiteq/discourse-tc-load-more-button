@@ -1,5 +1,6 @@
 import { apiInitializer } from 'discourse/lib/api';
 import { action } from "@ember/object";
+import I18n from "I18n";
 
 export default apiInitializer('0.11.1', (api) => {
 
@@ -25,7 +26,7 @@ export default apiInitializer('0.11.1', (api) => {
 
         const btn = document.createElement("button");
         btn.className = "load-more-btn btn btn-primary";
-        btn.textContent = "Load more";
+        btn.textContent = I18n.t("load_more_button.label");
         btn.addEventListener("click", () => {
           btn.remove();
           this._loadMoreBtn = null;

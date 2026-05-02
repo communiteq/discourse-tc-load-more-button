@@ -1,0 +1,6 @@
+es:
+  theme_metadata:
+    description: "Reemplaza el desplazamiento infinito por un botón Cargar más"
+  js:
+    load_more_button:
+      label: "Cargar más"
