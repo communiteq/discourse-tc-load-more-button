@@ -1,0 +1,5 @@
+toggle_off_for_anon:
+  type: bool
+  default: false
+  description:
+    en: Toggle load more button off for anon users
