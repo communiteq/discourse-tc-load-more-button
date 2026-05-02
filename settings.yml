@@ -1,0 +1,4 @@
+full_width_button:
+  type: bool
+  default: false
+  description: "Makes the Load More button span the full width on both mobile and desktop."
