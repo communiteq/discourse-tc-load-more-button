@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: "Replaces infinite scroll with a Load More button"
+  js:
+    load_more_button:
+      label: "Load more"
