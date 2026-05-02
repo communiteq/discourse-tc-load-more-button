@@ -1,0 +1,11 @@
+@use "lib/viewport";
+
+// ** center on mobile viewport size only ** //
+
+@include viewport.until(md) {
+
+  .load-more-btn.btn.btn-primary {
+    display: block;
+    margin: 0 auto;   
+  }
+}
