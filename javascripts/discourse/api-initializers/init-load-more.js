@@ -26,7 +26,7 @@ export default apiInitializer('0.11.1', (api) => {
 
         const btn = document.createElement("button");
         btn.className = "load-more-btn btn btn-primary";
-        btn.textContent = I18n.t("load_more_button.label");
+        btn.textContent = I18n.t("js.load_more_button.label");
         btn.addEventListener("click", () => {
           btn.remove();
           this._loadMoreBtn = null;
