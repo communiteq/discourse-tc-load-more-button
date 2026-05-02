@@ -1,6 +1,8 @@
 pt_BR:
   theme_metadata:
     description: "Substitui o scroll infinito por um botão Carregar mais"
-  js:
-    load_more_button:
-      label: "Carregar mais"
+    settings:
+      full_width_button:
+        description: "Faz o botão Carregar mais ocupar toda a largura"
+  load_more_button:
+    label: "Carregar mais"

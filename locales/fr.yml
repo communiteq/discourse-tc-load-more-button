@@ -1,6 +1,8 @@
 fr:
   theme_metadata:
     description: "Remplace le défilement infini par un bouton Charger plus"
-  js:
-    load_more_button:
-      label: "Charger plus"
+    settings:
+      full_width_button:
+        description: "Fait que le bouton Charger plus occupe toute la largeur"
+  load_more_button:
+    label: "Charger plus"
