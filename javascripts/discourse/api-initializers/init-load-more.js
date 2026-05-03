@@ -14,6 +14,11 @@ export default apiInitializer('0.11.1', (api) => {
         return;
       }
 
+      // Don't show on search page
+      if (window.location.pathname.startsWith("/search")) {
+        return;
+      }
+
       const observerEntry = Array.isArray(entry) ? entry[0] : entry;
       const sentinel = observerEntry?.target;
       if (!(sentinel instanceof Element)) {
