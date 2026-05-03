@@ -1,0 +1,8 @@
+es:
+  theme_metadata:
+    description: "Reemplaza el desplazamiento infinito por un botón Cargar más"
+    settings:
+      full_width_button:
+        description: "Hace que el botón Cargar más ocupe todo el ancho"
+  load_more_button:
+    label: "Cargar más"

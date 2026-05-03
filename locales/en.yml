@@ -1,0 +1,8 @@
+en:
+  theme_metadata:
+    description: "Replaces infinite scroll with a Load More button"
+    settings:
+      full_width_button:
+        description: "Make the Load More button span the full width"
+  load_more_button:
+    label: "Load more"
